@@ -1,0 +1,29 @@
+﻿# Настройки PyCharm / IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Переменные окружения и секреты
+.env
+*.env
+
+# Кэш Python и тестов
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Локальные логи и данные приложения
+storage/
+logs/
+data/stats.json
+
+# ОС файлы
+.DS_Store
+Thumbs.db

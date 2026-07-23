@@ -1,0 +1,11 @@
+{
+    "total_requests": 2,
+    "categories": {
+        "other": 1,
+        "general": 1
+    },
+    "sentiments": {
+        "neutral": 1,
+        "unknown": 1
+    }
+}
