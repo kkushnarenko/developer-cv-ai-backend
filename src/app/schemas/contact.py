@@ -12,7 +12,7 @@ class ContactFormRequest(BaseModel):
     )
     email : EmailStr = Field(
         description="Email для обратной связи",
-        examples=["example@gmail.cpm"]
+        examples=["example@gmail.com"]
     )
     phone : Optional[str] = Field(
         None,
@@ -37,4 +37,3 @@ class ContactFormRequest(BaseModel):
         if not re.match(r"^\+?[0-9]{10,15}$", cleaned_value):
             raise ValueError("Некорректный формат номера телефона. Ожидается от 10 до 15 цифр.")
         return cleaned_value
-    

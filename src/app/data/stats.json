@@ -1,11 +1,12 @@
 {
-    "total_requests": 2,
+    "total_requests": 8,
     "categories": {
         "other": 1,
-        "general": 1
+        "general": 1,
+        "collaboration": 6
     },
     "sentiments": {
-        "neutral": 1,
+        "neutral": 7,
         "unknown": 1
     }
 }
